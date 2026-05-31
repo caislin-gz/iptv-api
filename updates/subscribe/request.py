@@ -108,8 +108,12 @@ async def get_channels_by_subscribe_urls(
                 disable_reason = t("msg.auto_disable_request_failed")
             if response:
                 if hasattr(response, 'text'):
-                    response.encoding = "utf-8"
                     content = response.text
+                    if '\ufffd' in content:
+                        try:
+                            content = response.content.decode('gbk', errors='replace')
+                        except (UnicodeDecodeError, LookupError):
+                            pass
                 else:
                     content = str(response)
                 if not content:
