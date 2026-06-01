@@ -110,10 +110,13 @@ async def get_channels_by_subscribe_urls(
                 if hasattr(response, 'text'):
                     content = response.text
                     if '\ufffd' in content:
-                        try:
-                            content = response.content.decode('gbk', errors='replace')
-                        except (UnicodeDecodeError, LookupError):
-                            pass
+                        for encoding in ['gbk', 'gb2312', 'big5', 'gb18030']:
+                            try:
+                                decoded = response.content.decode(encoding, errors='replace')
+                                content = decoded
+                                break
+                            except (UnicodeDecodeError, LookupError):
+                                continue
                 else:
                     content = str(response)
                 if not content:
