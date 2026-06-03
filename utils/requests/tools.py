@@ -46,7 +46,16 @@ def get_requests(url, data=None, proxy=None, timeout=30, headers_override: dict 
 
     if response is None:
         raise requests.RequestException(f"No response from {url}")
-
+    # Auto-detect encoding: try UTF-8 first, then GBK, then fallback to apparent_encoding
+    try:
+        response.content.decode('utf-8')
+        response.encoding = 'utf-8'
+    except UnicodeDecodeError:
+        try:
+            response.content.decode('gbk')
+            response.encoding = 'gbk'
+        except UnicodeDecodeError:
+            response.encoding = response.apparent_encoding or 'utf-8'
     text = re.sub(r"<!--.*?-->", "", response.text or "", flags=re.DOTALL)
     if not text.strip():
         raise requests.RequestException(f"Empty response from {url}")
