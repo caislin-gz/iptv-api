@@ -66,7 +66,7 @@ TVB Plus,TVBPLUS,TVBPlus,TVBplus
 FZTV1,FZTV-1,福州综合,福州1-新闻
 FZTV3,FZTV-3,福州生活,福州3-生活
 
-无线新闻,无线新闻台,無綫新聞,無線新聞台,TVB无线新闻,TVB无线新闻台,无线新闻Pdtv,无线新闻欣赏
+无线新闻,无线新闻台,無綫新聞,無線新聞台,TVB无线新闻,TVB无线新闻台,无线新闻Pdtv,无线新闻欣赏,无线新闻高码
 
 港台电视 31,港台電視 31,RTHK31,RTHK 31,RTHK-31
 港台电视 32,港台電視 32,RTHK32,RTHK 32,RTHK-32
