@@ -3,4 +3,4 @@
 /audio/
 bxtv.3a.ink
 stream1.freetv.fun
-iptv.catvod.com/live.php
+iptv.catvod.com
