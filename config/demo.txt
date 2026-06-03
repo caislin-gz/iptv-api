@@ -1,3 +1,5 @@
+央视频道,#genre#
+CCTV-1
 
 港台频道,#genre#
 凤凰资讯
@@ -12,7 +14,6 @@ CHC影迷电影
 TVB Plus
 
 广东频道,#genre#
-CCTV-1
 广东珠江
 广东体育
 广东新闻
