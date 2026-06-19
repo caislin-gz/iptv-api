@@ -2,6 +2,36 @@
 # 支持设置UA：https://xxx.com/subscribe.m3u UA="xxx"
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
+# https://tv.anbox.ip-ddns.com/live
+# https://raw.githubusercontent.com/mytv-android/myMIGU/refs/heads/main/migu.m3u
+# https://4tv.nxns.uno/moonkey/4tv/raw/branch/main/tv.m3u
+# https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/港台大陆无18内容
+# https://gitee.com/jin-xueling/lingl/raw/master/hu.txt
+# http://is.is-great.org/ii/1749383140.txt
+# http://1.94.31.214/live/livelite.txt
+# https://fy.188766.xyz/?ip=192.168.110.1
+# https://gitee.com/buzhenglin2025/tv/raw/master/HKTV.m3u
+# https://cloud.7so.top/f/xv80ux/天浪.txt
+# https://gitee.com/jin-xueling/cinematography/raw/master/json.txt
+# https://d.kstore.dev/download/15114/TVSolo.txt
+# https://raw.githubusercontent.com/alantang1977/TVsmile/refs/heads/main/组播优选.txt
+# https://dsj-1312694395.cos.ap-guangzhou.myqcloud.com/dsj10.1.txt
+# https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt
+# http://xo.html-5.me//i/9918352.txt
+# https://d.kstore.dev/download/12441/ds9.txt
+# https://gitee.com/yimi321/tv/raw/master/tv.png
+# https://d.kstore.dev/download/11344/yunduan.txt
+# http://1.94.31.214/live/live9/dgtv.txt
+# https://tvv.tw/github.com/fafa002/yf2025/blob/main/yiyifafa.txt
+# https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt
+# https://wget.la/https://github.com/fafa002/yf2025/blob/main/yiyifafa.txt
+# http://210.245.166.84:1299/live/live1.txt
+# http://iptv.4666888.xyz/FYTV.txt
+# http://210.245.166.84:1299/live/live.txt
+# https://ds65.tv1288.xyz
+# https://raw.githubusercontent.com/xmbjm/IPTV/master/output/user_result.m3u
+# https://m.iill.top/Live.m3u
+# https://cloud.7so.top/f/Bgw1H8/大改.txt
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u
 https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/gqds+.txt
 https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/cjdszb.txt
@@ -37,39 +67,9 @@ https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt
 https://wget.la/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u
 https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u
 https://gongdian.top/tv/ku9/webview.txt#JS=https://gongdian.top/tv/ku9/js/webview.js
-https://pan.vma.cc/pan/down.php/350735607a786faaaa69aa5bbe3a3078.txt
 https://5266.kstore.space/xiangxichuanshuo.txt
 
-# https://tv.anbox.ip-ddns.com/live
-# https://raw.githubusercontent.com/mytv-android/myMIGU/refs/heads/main/migu.m3u
-# https://4tv.nxns.uno/moonkey/4tv/raw/branch/main/tv.m3u
-# https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/港台大陆无18内容
-# https://gitee.com/jin-xueling/lingl/raw/master/hu.txt
-# http://is.is-great.org/ii/1749383140.txt
-# http://1.94.31.214/live/livelite.txt
-# https://fy.188766.xyz/?ip=192.168.110.1
-# https://gitee.com/buzhenglin2025/tv/raw/master/HKTV.m3u
-# https://cloud.7so.top/f/xv80ux/天浪.txt
-# https://gitee.com/jin-xueling/cinematography/raw/master/json.txt
-# https://d.kstore.dev/download/15114/TVSolo.txt
-# https://raw.githubusercontent.com/alantang1977/TVsmile/refs/heads/main/组播优选.txt
-# https://dsj-1312694395.cos.ap-guangzhou.myqcloud.com/dsj10.1.txt
-# https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt
-# http://xo.html-5.me//i/9918352.txt
-# https://d.kstore.dev/download/12441/ds9.txt
-# https://gitee.com/yimi321/tv/raw/master/tv.png
-# https://d.kstore.dev/download/11344/yunduan.txt
-# http://1.94.31.214/live/live9/dgtv.txt
-# https://tvv.tw/github.com/fafa002/yf2025/blob/main/yiyifafa.txt
-# https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt
-# https://wget.la/https://github.com/fafa002/yf2025/blob/main/yiyifafa.txt
-# http://210.245.166.84:1299/live/live1.txt
-# http://iptv.4666888.xyz/FYTV.txt
-# http://210.245.166.84:1299/live/live.txt
-# https://ds65.tv1288.xyz
-# https://raw.githubusercontent.com/xmbjm/IPTV/master/output/user_result.m3u
-# https://m.iill.top/Live.m3u
-# https://cloud.7so.top/f/Bgw1H8/大改.txt
+# https://pan.vma.cc/pan/down.php/350735607a786faaaa69aa5bbe3a3078.txt
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
