@@ -32,19 +32,16 @@
 # https://raw.githubusercontent.com/xmbjm/IPTV/master/output/user_result.m3u
 # https://m.iill.top/Live.m3u
 # https://cloud.7so.top/f/Bgw1H8/大改.txt
+# https://pan.vma.cc/pan/down.php/350735607a786faaaa69aa5bbe3a3078.txt
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u
-https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/gqds+.txt
-https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/cjdszb.txt
 https://raw.githubusercontent.com/aiyakuaile/easy_tv_live/refs/heads/main/temp
 https://raw.githubusercontent.com/develop202/migu_video/main/interface.txt
 https://raw.githubusercontent.com/mzky/checklist/refs/heads/master/itvlist.m3u
 https://raw.githubusercontent.com/qingtingjjjjjjj/iptv-auto-update/main/my.txt
 https://raw.githubusercontent.com/Wirili/IPTV/main/live.txt
 https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/full_validated.m3u
-https://gitee.com/alexkw/app/raw/master/kgk.txt
 https://cloud.7so.top/f/volzIA/LiTV.m3u
 https://files.catbox.moe/dt9svf.txt
-http://iptv.4666888.xyz/FYTV.m3u
 https://tmxk.pp.ua/smart-cn.m3u
 https://tmxk.pp.ua/iptv-cn.m3u
 https://cloud.7so.top/f/yr7BHL/HKTV.txt
@@ -69,7 +66,10 @@ https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u
 https://gongdian.top/tv/ku9/webview.txt#JS=https://gongdian.top/tv/ku9/js/webview.js
 https://5266.kstore.space/xiangxichuanshuo.txt
 
-# https://pan.vma.cc/pan/down.php/350735607a786faaaa69aa5bbe3a3078.txt
+# https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/gqds+.txt
+# https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/cjdszb.txt
+# https://gitee.com/alexkw/app/raw/master/kgk.txt
+# http://iptv.4666888.xyz/FYTV.m3u
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
