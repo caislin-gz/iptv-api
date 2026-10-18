@@ -194,14 +194,8 @@ async def get_channels_by_subscribe_urls(
                     error_type=type(exc).__name__,
                 )
                 disable_reason = t("msg.auto_disable_request_failed")
-            if response:
-                if hasattr(response, 'text'):
-                    content = response.text
-                    response.encoding = "utf-8"
-                else:
-                    content = str(response)
-                if not content:
-                    disable_reason = t("msg.auto_disable_empty_content")
+
+            if content:
                 try:
                     save_url_content('subscribe', subscribe_url, content)
                 except Exception:
